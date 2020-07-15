@@ -1,0 +1,103 @@
+html{
+    background-color:  #ffffff;
+    /* background-image: linear-gradient(to bottom right, powderblue, rgba(218, 189, 247, 0.851)) */
+  }
+
+h3{
+    color: rgb(124, 124, 139);
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    font-weight: 350;
+    text-align: justify;
+}
+  /* input {
+    width: 100%;
+  } */
+
+  input[type=text] {
+    width: 38%;
+
+    border: none;
+    border-bottom: 1px solid rgba(139, 136, 143, 0.746);
+
+  }
+
+  input[type=login]:hover {
+    background-color: #656168;
+    font-weight: 300;
+    position: absolute;
+  
+  }
+  button#login{
+    width: 38%;
+    height: 60px;
+    box-sizing: border-box;
+
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+  background-color: #3a333e;
+  font-family: 'Roboto', sans-serif;
+  font-size: large;
+  position: absolute;
+  top: 300px;
+  left: 50px;
+
+  }
+  
+  button#forgotten-password{
+    width: 38%;
+    height: 60px;
+
+    color: rgb(241, 48, 122);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #c0bbc2;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: large;
+    position: absolute;
+    top: 400px;
+    left: 50px;
+
+
+    }
+
+    label#email{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        color: rgb(133, 125, 138);
+
+    }
+
+    label#badge-id-two{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        color: rgb(133, 125, 138);
+    }
+
+    a#link{
+        color: rgb(241, 48, 122);
+
+    }
+
+    img#pic{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        size: 50px;
+  
+
+    }
+
+    /* img#side-pic{
+        display: block;
+        margin-left: auto;
+        margin-right: 0;
+    } */
